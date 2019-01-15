@@ -50,12 +50,8 @@ module.exports.datastores = {
     ***************************************************************************/
     // adapter: 'sails-mysql',
     // url: 'mysql://user:password@host:port/database',
-    // adapter: 'sails-mongo',
-    // url: 'mongodb://root@localhost:27017/dilisa'
-    // url: 'mongodb:// joseeduar147@gmail.com:jose1090519754@ds257314.mlab.com:57314/dilisap';
-    localDiskDb: {
-      adapter: 'sails-disk'
-    },
+    adapter: 'sails-mongo',
+    url: 'mongodb://root@localhost:27017/dilisa'
 
   },
 
